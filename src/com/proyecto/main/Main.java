@@ -5,6 +5,9 @@
  */
 package com.proyecto.main;
 
+import com.proyecto.servicio.LoginServicio;
+import com.proyecto.view.LoginView;
+
 /**
  *
  * @author Arturo
@@ -18,6 +21,7 @@ public class Main {
     
     public static void main(String[] args) {
         // TODO code application logic here
+        LoginView view =new LoginView();
        
     }
     

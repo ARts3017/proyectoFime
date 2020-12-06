@@ -25,7 +25,7 @@ public class Conexion {
      public Connection con(){
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/spring","root","123");
+            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/dentil","root","123");
                
             }catch(Exception e){
                 e.printStackTrace();
